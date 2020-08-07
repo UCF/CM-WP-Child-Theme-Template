@@ -9,7 +9,7 @@ namespace MyProject\Theme\Includes\Meta;
 /**
  * Enqueue front-end css and js.
  **/
-function nqueue_frontend_assets() {
+function enqueue_frontend_assets() {
 	$theme = wp_get_theme();
 	$theme_version = $theme->get( 'Version' );
 
